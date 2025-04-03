@@ -1,0 +1,38 @@
+# Ignorar arquivos de compilação
+cmake-build-*/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.a
+*.lib
+*.pch
+*.pdb
+
+# Ignorar diretórios de configuração do CLion
+.idea/
+*.iml
+
+# Ignorar arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Ignorar arquivos de saída
+*.out
+*.log
+*.swp
+*.swo
+
+# Ignorar diretórios de build e debug
+build/
+Debug/
+Release/
+dist/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
